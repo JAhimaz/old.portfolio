@@ -1,6 +1,6 @@
 body, html {
     line-height: 1;
-    height: 100%;
+    height: 97%;
     background-image: url("../images/background.png");
     background-position: center;
     background-repeat: no-repeat;
@@ -19,6 +19,25 @@ a.content-left{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.nav-item {
+    padding-right: 28px;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding-bottom: 10px;
+    color: white;
+    text-align: center;
+  }
+
+.navbar-brand img{
+    width: auto;
+    height: 36px;
+}
+
 a.form-container{
     color: white;
     text-decoration: none;
@@ -26,6 +45,18 @@ a.form-container{
     font-weight: bold;
     font-size: 12px;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.bluetext{
+    color: #1988c8;
+    font-size: 18px;
+    font-family: Consolas;
+}
+
+.offwhitetext{
+    color: #a7b9c4;
+    font-size: 18px;
+    font-family: Consolas;
 }
 
 .img-content{
