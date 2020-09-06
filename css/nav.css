@@ -1,0 +1,20 @@
+nav {
+    width: 100%;
+    background-color: transparent;
+    margin-top: 12px;
+    padding: 0px 30px 30px;
+}
+
+.navbar-brand img{
+    width: auto;
+    height: 70px;
+}
+
+a{
+    color: white;
+}
+
+.no-padding{
+    padding: 0px;
+    margin: 0px;
+}
