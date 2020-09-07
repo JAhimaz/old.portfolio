@@ -18,9 +18,6 @@ footer {
     text-align: center;
   }
 
-.row{
-    height: 100%;
-}
 
 @keyframes slideInFromTop {
     0% {
@@ -63,7 +60,7 @@ a.uppercontenttext{
     animation-name: slideInFromTop;
     animation-duration: 1s;
     animation-iteration-count: 1;
-    color: #1988c8;
+    color: #19a9fc;
     font-size: 18px;
     font-family: Consolas;
     text-decoration: none;
@@ -104,7 +101,26 @@ a.lowercontenttext{
 
 .margin-padding {
     margin-top: 280px;
-    margin-left: 120px;
+    margin-left: 50px;
+    padding-left: 200px;
+}
+
+.btn-cv{
+    border-color: #19a9fc;
+    background-color: transparent;
+    font-family: Consolas;
+    color: #19a9fc;
+}
+
+.btn-cv:hover, .btn-cv:focus{
+    background-color: #19a9fc !important;
+    color: white !important;
+}
+
+.btn-cv:active, .btn-cv:visited{
+    border-color: #19a9fc !important;
+    color: #19a9fc !important;
+    background-color: transparent !important;
 }
 
 
@@ -116,25 +132,25 @@ a.lowercontenttext{
     animation-iteration-count: 1;
     opacity: 0;
     margin-top: 30px;
-    border-color: #1988c8;
+    border-color: #19a9fc;
     background-color: transparent;
     font-family: Consolas;
-    color: #1988c8;
+    color: #19a9fc;
 }
 
 .btn-primary:hover, .btn-primary:focus{
-    background-color: #1988c8 !important;
+    background-color: #19a9fc !important;
     color: white !important;
 }
 
 .btn-primary:active, .btn-primary:visited{
-    border-color: #1988c8 !important;
-    color: #1988c8 !important;
+    border-color: #19a9fc !important;
+    color: #19a9fc !important;
     background-color: transparent !important;
 }
 
 .bluetext{
-    color: #1988c8;
+    color: #19a9fc;
 }
 
 .offwhitetext{
@@ -207,7 +223,7 @@ a.lowercontenttext{
 
     a.uppercontenttext{
         padding-top: 50px;
-        color: #1988c8;
+        color: #19a9fc;
         font-size: 16px;
         display: block;
     }

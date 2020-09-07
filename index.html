@@ -10,8 +10,11 @@
     <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/content.css">
     <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 </head>
 <body>
     <nav class="navbar navbar-expand-md" id="navbar">
@@ -23,7 +26,7 @@
         <div class="collapse navbar-collapse no-padding" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item" >
-                    <a class="nav-link" href="#"><span class="bluetext">1_ </span><span class="offwhitetext">About Me</span></a>
+                    <a class="nav-link" href="#_aboutme"><span class="bluetext">1_ </span><span class="offwhitetext">About Me</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#_portfolio"><span class="bluetext">2_ </span><span class="offwhitetext">Portfolio</span></a>
@@ -34,9 +37,13 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#_contact"><span class="bluetext">4_ </span><span class="offwhitetext">Contact</span></a>
                 </li>
+                <li class="nav-item">
+                    <button type="button" class="btn btn-cv">Resume <i class='fas fa-download'></i></button>
+                </li>
             </ul>
         </div>
         <script>
+            
             var prevScrollpos = window.pageYOffset;
             window.onscroll = function() {
             var currentScrollPos = window.pageYOffset;
@@ -50,6 +57,9 @@
               prevScrollpos = currentScrollPos;
             }
         </script>
+        <script>
+            AOS.init();
+        </script>
     </nav>
 
     <div class="container-fluid">
@@ -58,7 +68,7 @@
                 
             </div>
             <div class="col-md-10 col-sm-12 margin-padding">
-                <div class="row">
+                <div class="row" id="#landing">
                     <a class="uppercontenttext">_Welcome, I am</a>
                     <a class="middlecontenttext">
                         Joshua Daveston Ahimaz
@@ -70,16 +80,19 @@
                         <span class="offwhitetext">develop</span> games and do graphic design as a hobby.
                     </a>
                     <div class="buttonArea">   
-                        <button type="button" class="btn btn-primary">reach out</button>
+                        <button type="button" class="btn btn-primary">Reach Out</button>
                     </div>
                 </div>
-                <div class="row" style="padding-top: 30%">
+                <div data-aos="fade-left" id="aboutme" class="row aos-init" data-aos-delay="100" data-aos-duration="1000" style="padding-top: 30%">
+                    <a name="_aboutme" class="uppercontenttext">1_ <span class="offwhitetext">About Me</span>  ---------------------------</a>
+                </div>
+                <div data-aos="fade-left" id="portfolio" class="row aos-init" data-aos-delay="100" data-aos-duration="1000" style="padding-top: 30%">
                     <a name="_portfolio" class="uppercontenttext">2_ <span class="offwhitetext">Portfolio</span>  ---------------------------</a>
                 </div>
-                <div class="row" style="padding-top: 30%">
+                <div data-aos="fade-left" id="skills" class="row aos-init" data-aos-delay="100" data-aos-duration="1000" style="padding-top: 30%">
                     <a name="_skills" class="uppercontenttext">3_ <span class="offwhitetext">Skills</span>  ---------------------------</a>
                 </div>
-                <div class="row" style="padding-top: 30%">
+                <div data-aos="fade-left" id="contact" class="row aos-init" data-aos-delay="100" data-aos-duration="1000" style="padding-top: 30%">
                     <a name="_contact" class="uppercontenttext">4_ <span class="offwhitetext">Contact Me</span>  ---------------------------</a>
                 </div>
             </div>
