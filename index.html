@@ -13,7 +13,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 </head>
 <body>
-    <nav class="navbar navbar-expand-md">
+    <nav class="navbar navbar-expand-md" id="navbar">
         <a class="navbar-brand" href="index.html"><img src="images/logonav.png" alt="Joshua Ahimaz"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
             <span class="navbar-toggler-icon"></span>
@@ -35,16 +35,41 @@
                 </li>
             </ul>
         </div>
+        <script>
+            var prevScrollpos = window.pageYOffset;
+            window.onscroll = function() {
+            var currentScrollPos = window.pageYOffset;
+              if (prevScrollpos > currentScrollPos) {
+                console.log("test1");
+                document.getElementById("navbar").style.top = "0px";
+              } else {
+                console.log("test2");
+                document.getElementById("navbar").style.top = "-100px";
+              }
+              prevScrollpos = currentScrollPos;
+            }
+        </script>
     </nav>
 
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-6 col-sm-12 margin-padding">
-                <a class="content-left">
-
-                </a>
+            <div class="col-md-1 col-sm-11">
+ 
             </div>
-            <div class="col-md-6 col-sm-12">
+            <div class="col-md-10 col-sm-11 margin-padding text-left">
+                <a class="uppercontenttext">_Welcome, I am</a>
+                <a class="middlecontenttext">
+                    Joshua Ahimaz
+                </a>
+                <a class="lowercontenttext">
+                    <span class="bluetext">Software Engineer</span> based in <span class="offwhitetext">Malaysia</span>. I am studying my<br>
+                    <span class="offwhitetext">BSc (Hons) in Computer Science</span> at <span class="offwhitetext">Sunway University</span><br>
+                    I <span class="offwhitetext">build</span> applications for both mobile/desktop,<br>
+                    <span class="offwhitetext">develop</span> games and do graphic design as a hobby.
+                </a>
+                <button type="button" class="btn btn-primary">reach out</button>
+            </div>
+            <div class="col-md-1 col-sm-11">
 
             </div>
         </div>
