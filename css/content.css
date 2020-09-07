@@ -93,10 +93,11 @@ a.lowercontenttext{
     padding-top: 20px;
     padding-right: 65%;
     color: #68777f;
-    font-size: 18px;
+    font-size: 20px;
     font-family: Calibri;
     text-decoration: none;
 }
+
 
 
 .margin-padding {
@@ -164,6 +165,20 @@ a.lowercontenttext{
     margin: 15px 20px;
 }
 
+.AMpara{
+    text-align: justify;
+}
+
+.AMprof{
+    border-color: #19a9fc;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 2px;
+    box-shadow: 10px 10px rgba(25, 169, 252, 0.5);
+    
+}
+
+
 
 .rotate {
 
@@ -213,6 +228,12 @@ a.lowercontenttext{
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 } */
 
+@media screen and (min-width: 768px) and (max-width: 1366px) {
+    .margin-padding{
+        padding-left: 0px;
+    }
+}
+
 
 @media screen and (min-width: 0px) and (max-width: 768px) {
     
@@ -245,6 +266,10 @@ a.lowercontenttext{
         margin-top: 30px;
         color: #68777f;
         font-size: 16px;
+    }
+
+    .AMpara{
+        text-align: center;
     }
     
     .col-md-10{
