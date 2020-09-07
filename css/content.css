@@ -62,7 +62,7 @@ a.uppercontenttext{
     animation-iteration-count: 1;
     color: #19a9fc;
     font-size: 18px;
-    font-family: "Lucida Sans Typewriter", "Lucida Console", Monaco, "Bitstream Vera Sans Mono", monospace;
+    font-family: Consolas, "Lucida Sans Typewriter", "Lucida Console", Monaco, "Bitstream Vera Sans Mono", monospace;
     text-decoration: none;
     display: block;
 }
@@ -109,7 +109,7 @@ a.lowercontenttext{
 .btn-cv{
     border-color: #19a9fc;
     background-color: transparent;
-    font-family: "Lucida Sans Typewriter", "Lucida Console", Monaco, "Bitstream Vera Sans Mono", monospace;
+    font-family: Consolas, "Lucida Sans Typewriter", "Lucida Console", Monaco, "Bitstream Vera Sans Mono", monospace;
     color: #19a9fc;
 }
 
@@ -135,7 +135,7 @@ a.lowercontenttext{
     margin-top: 30px;
     border-color: #19a9fc;
     background-color: transparent;
-    font-family: "Lucida Sans Typewriter", "Lucida Console", Monaco, "Bitstream Vera Sans Mono", monospace;
+    font-family: Consolas, "Lucida Sans Typewriter", "Lucida Console", Monaco, "Bitstream Vera Sans Mono", monospace;
     color: #19a9fc;
 }
 

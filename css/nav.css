@@ -24,7 +24,7 @@ a{
     padding-top: 10px;
     padding-right: 28px;
     font-size: 14px;
-    font-family: Consolas;
+    font-family: Consolas, "Lucida Sans Typewriter", "Lucida Console", Monaco, "Bitstream Vera Sans Mono", monospace;
 }
 
 .navbar {
@@ -48,6 +48,6 @@ a{
         padding-top: 10px;
         padding-right: 28px;
         font-size: 14px;
-        font-family: Consolas;
+        font-family: Consolas, "Lucida Sans Typewriter", "Lucida Console", Monaco, "Bitstream Vera Sans Mono", monospace;
     }
 }
