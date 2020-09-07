@@ -23,7 +23,7 @@ a{
 .nav-item {
     padding-top: 10px;
     padding-right: 28px;
-    font-size: 18px;
+    font-size: 14px;
     font-family: Consolas;
 }
 
@@ -42,5 +42,12 @@ a{
         top: 0px;
         width: 100%;
         transition: top 0.3s;
+    }
+
+    .nav-item {
+        padding-top: 10px;
+        padding-right: 28px;
+        font-size: 14px;
+        font-family: Consolas;
     }
 }

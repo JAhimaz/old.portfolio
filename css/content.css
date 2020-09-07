@@ -213,8 +213,8 @@ a.lowercontenttext{
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 } */
 
+
 @media screen and (min-width: 0px) and (max-width: 768px) {
-    
     
     a.uppercontenttext, a.middlecontenttext, a.lowercontenttext{
         text-align: center;
@@ -257,5 +257,7 @@ a.lowercontenttext{
 
     .margin-padding{
         margin: 0px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 }
