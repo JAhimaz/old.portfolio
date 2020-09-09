@@ -18,3 +18,7 @@
 .SLbr {
     padding-top: 15px;
 }
+
+.SLblc:hover{
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(305deg) brightness(108%) contrast(106%);
+}
