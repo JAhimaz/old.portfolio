@@ -146,11 +146,16 @@ a.lowercontenttext{
   
   }
 
+.right-bar{
+    position: fixed;
+    top: 0;
+    right: 20px;
+}
+
 .left-bar{
     position: fixed;
     bottom: 0;
     left: 20px;
-    right: 0px;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1366px) {
@@ -162,7 +167,7 @@ a.lowercontenttext{
 
 @media screen and (min-width: 0px) and (max-width: 768px) {
 
-    .left-bar{
+    .left-bar, .right-bar{
         display: none;
     }
 
