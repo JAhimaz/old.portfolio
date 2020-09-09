@@ -18,48 +18,11 @@ footer {
     text-align: center;
   }
 
-
-@keyframes slideInFromTop {
-    0% {
-        opacity: 0;
-        transform: translatey(-20%);
-    }
-    100% {
-        opacity: 1;
-        transform: translatey(0);
-    }
-}
-
-@keyframes popIn {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-
-@keyframes slideInFromLeft {
-    0% {
-        opacity: 0;
-        transform: translatex(-5%);
-    }
-    100% {
-        opacity: 1;
-        transform: translatey(0);
-    }
-}
-
 .row{
     height: auto;
 }
 
 a.uppercontenttext{
-    animation-fill-mode: forwards;
-    opacity: 0;
-    animation-name: slideInFromTop;
-    animation-duration: 1s;
-    animation-iteration-count: 1;
     color: #19a9fc;
     font-size: 18px;
     font-family: Consolas, "Lucida Sans Typewriter", "Lucida Console", Monaco, "Bitstream Vera Sans Mono", monospace;
@@ -68,12 +31,6 @@ a.uppercontenttext{
 }
 
 a.middlecontenttext{
-    animation-fill-mode: forwards;
-    animation-name: slideInFromTop;
-    animation-duration: 1s;
-    animation-delay: 0.5s;
-    animation-iteration-count: 1;
-    opacity: 0;
     color: #a7b9c4;
     text-decoration: none;
     display: block;
@@ -83,21 +40,15 @@ a.middlecontenttext{
 }
 
 a.lowercontenttext{
-    animation-fill-mode: forwards;
-    animation-name: slideInFromLeft;
-    animation-duration: 1s;
-    animation-delay: 1s;
-    animation-iteration-count: 1;
     opacity: 0;
     display: block;
     padding-top: 20px;
-    padding-right: 65%;
+    padding-right: 60%;
     color: #68777f;
     font-size: 20px;
     font-family: Calibri;
     text-decoration: none;
 }
-
 
 
 .margin-padding {
@@ -126,12 +77,6 @@ a.lowercontenttext{
 
 
 .btn-primary{
-    animation-fill-mode: forwards;
-    animation-name: popIn;
-    animation-duration: 1s;
-    animation-delay: 1.5s;
-    animation-iteration-count: 1;
-    opacity: 0;
     margin-top: 30px;
     border-color: #19a9fc;
     background-color: transparent;
@@ -201,20 +146,16 @@ a.lowercontenttext{
   
   }
 
+.right-bar{
+    position: fixed;
+    top: 0;
+    right: 20px;
+}
+
 .left-bar{
     position: fixed;
     bottom: 0;
-    left: 0;
-    right: 10px;
-}
-
-.SLblc {
-    width: 48px;
-    height: 48px;
-}
-
-.SLbr {
-    padding-top: 10px;
+    left: 20px;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1366px) {
@@ -226,7 +167,7 @@ a.lowercontenttext{
 
 @media screen and (min-width: 0px) and (max-width: 768px) {
 
-    .left-bar{
+    .left-bar, .right-bar{
         display: none;
     }
 
