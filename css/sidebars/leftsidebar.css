@@ -1,0 +1,20 @@
+.SLblc {
+    width: 36px;
+    height: 36px;
+}
+
+.SLbvlc {
+    height: 90px;
+    width: 36px;
+}
+
+.SLbvl {
+    height: 100%;
+    width: 5px;
+    margin: 45%;
+    background-color: #19a9fc;
+}
+
+.SLbr {
+    padding-top: 15px;
+}

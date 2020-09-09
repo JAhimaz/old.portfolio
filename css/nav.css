@@ -4,15 +4,11 @@ nav {
     padding: 0px 30px 30px;
 }
 
-.navbar-toggler:focus{
-    
-}
-
 .navbar-brand img{
     padding-top: 10px;
-    padding-left: 10px;
+    padding-left: 0px;
     width: auto;
-    height: 36px;
+    height: 42px;
 }
 
 a{
