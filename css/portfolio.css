@@ -32,7 +32,7 @@
 .span_1_of_3, .span_2_of_3, .span_3_of_3{
     background-color: transparent;
     border: 2px solid #19a9fc;
-    height: 300px;
+    height: 400px;
     font-size: 30px;
     text-align: center;
 }
@@ -43,6 +43,31 @@
     text-align: center;
     text-decoration: none;
     padding: 20px;   
+}
+
+.headtext-portfolio, .headtext-portfolio:hover{
+    font-size: 25px;
+    text-decoration: none;
+    color: #19a9fc;
+}
+
+.subtext-portfolio{
+    margin: 0px;
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+}
+
+.bodytext-portfolio{
+    margin-top: 5%;
+    font-size: 15px;
+    text-decoration: none;
+    color: #68777f;
+}
+
+.icon-link-portfolio{
+    width: 10%;
+    height: auto;
 }
 
 /*  GO FULL WIDTH BELOW 480 PIXELS */
