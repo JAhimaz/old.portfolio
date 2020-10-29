@@ -101,6 +101,11 @@ a.lowercontenttext{
 
 .offwhitetext{
     color: #a7b9c4;
+    text-decoration: none;
+}
+
+.offwhitetext:hover{
+    color: #19a9fc;
 }
 
 .img-content{
