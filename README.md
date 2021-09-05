@@ -1,1 +1,0 @@
-# JAhimaz.github.io
