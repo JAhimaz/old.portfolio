@@ -1,4 +1,4 @@
-# JAhimaz.github.io - Portfolio (To be Changed) 
+# JAhimaz.github.io - Portfolio
 
 ⭐ My Personal Portfolio ( Resume, Skills, Experience )⭐ 
 
