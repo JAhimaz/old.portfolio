@@ -2,5 +2,5 @@
 
 ⭐ My Personal Portfolio ( Resume, Skills, Experience )⭐ 
 
-Portfolio can be viewed at https://joshuaahimaz.me
+New Portfolio: https://github.com/JAhimaz/JAhimaz.github.io
 
